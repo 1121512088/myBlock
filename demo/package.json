@@ -1,22 +1,10 @@
 {
-  "name": "@umi-block/demo",
-  "version": "0.0.1",
-  "description": "测试模块",
-  "main": "src/index.js",
-  "authors": {
-    "name": "",
-    "email": ""
-  },
-  "repository": "umijs/umi-blocks/demo",
-  "scripts": {
-    "dev": "umi dev"
-  },
+  "name": "Demo",
+  "description": "Demo block of umi, with antd.",
   "dependencies": {
-    "react": ">=16.0.0"
+    "antd": "^3.10.9"
   },
-  "devDependencies": {
-    "umi": "^2.9.0",
-    "umi-plugin-block-dev": "^2.0.0"
-  },
-  "license": "MIT"
+  "block": {
+    "category": "脚手架"
+  }
 }
